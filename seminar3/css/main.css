@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("../fonts/gilroy-semibold.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroy-medium.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/gilroy-bold.ttf");
+  font-weight: 400;
+}
+@font-face{
+  font-family: "Gilroy-Regular";
+  src: url("../fonts/gilroy-regular.ttf");
+  font-weight: 400;
+}
+* {
+  margin: 0;
+}
+html {
+  background-color: #FFF;
+}
+body {
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body-top {
+  width: 1170px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 84px;
+}
+.menu-wrapper {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  column-gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+.menu-item-home {
+  text-decoration: none;
+  color: #F25822;
+  font-family: "Gilroy-SemiBold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.menu-item {
+  text-decoration: none;
+  color: #000;
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.intro {
+  display: flex;
+  margin-bottom: 162px;
+}
+.intro-left {
+}
+.intro-left-text {
+  margin-bottom: 37px;
+}
+.intro-title {
+  color: #000;
+  font-family: "Gilroy-Bold";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+.intro-text {
+  width: 466px;
+  color: #888;
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+.intro-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.intro-button-start {
+  border-radius: 50px;
+  background: #F25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+  border: none;
+  padding: 15px 36px 16px 35px;
+  color: #FFF;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 72px;
+  cursor: pointer;
+}
+.intro-button-link {
+  color: #AAA;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.logos {
+  margin-top: 97px;
+  margin-right: 375px;
+  margin-bottom: 96px;
+  margin-left: 345px;
+  display: flex;
+  column-gap: 48px;
+}
