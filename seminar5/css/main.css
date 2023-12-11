@@ -122,13 +122,22 @@ html {
 .body-down-info-box {
   display: flex;
   justify-content: flex-start;
-  padding-bottom: 50px;
   flex-direction: column;
   align-items: center;
+  background: #FFF;
 }
 
 .body-down-info-box:hover {
   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.body-down-info-box2 {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  flex-direction: column;
 }
 .body-down-info-box-title {
   color: #000;
@@ -154,9 +163,10 @@ html {
 }
 
 .body-down-info-box-btn {
+  display: flex;
+  align-items: center;
   color: #FFF;
   text-align: center;
-  vertical-align: middle;
   font-family: Gilroy-Bold;
   font-size: 13px;
   font-style: normal;
@@ -174,5 +184,4 @@ html {
 
 .icons-right {
   margin-left: 6px;
-  vertical-align: middle;
 }
