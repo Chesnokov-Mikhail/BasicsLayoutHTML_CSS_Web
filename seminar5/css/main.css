@@ -25,7 +25,8 @@ html {
   background-color: #FFF;
 }
 .base-container {
-  width: 1915px;
+  max-width: 1170px
+  /*width: 1915px;*/
   margin-right: auto;
   margin-left: auto;
 }
@@ -36,7 +37,8 @@ html {
 .header-nav {
   display: flex;
   justify-content: center;
-  gap: 61px;
+  /*gap: 61px;*/
+  gap: 30px;
 }
 .header-items {
   padding-top: 40px;
