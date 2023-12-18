@@ -21,7 +21,6 @@ html {
   padding: 0;
 }
 body {
-  background-color: #F1E4E6;
   max-width: 1600px;
 }
 .header {
@@ -41,12 +40,15 @@ body {
 }
 .section-top {
   background-color: #F1E4E6;
-  height: 764px;
   display: flex;
+}
+.section-top-left {
+  max-height: 764px;
 }
 .section-top-right {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .section-top-right-div {
   height: 50%;
@@ -65,4 +67,41 @@ body {
   font-size: 48px;
   font-weight: 900;
   line-height: normal;
+}
+.section-top-right-top-text1 {
+  color: #222;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-top-right-top-text2 {
+  color: #F16D7F;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-body {
+  background-color: #FFF;
+  max-height: 2925px;
+}
+.section-body-trend {
+  display: flex;
+  gap: 30px;
+}
+.section-body-trend-items {
+  fill: rgba(33, 22, 22, 0.70);
+  max-height: 260px;
+  max-width: 360px;
+}
+.section-body-trend-for-women {
+  background-image: url("../img/for-women.png");
+}
+.section-body-trend-for-men {
+  background-image: url("../img/for-men.png");
+}
+.section-body-trend-for-kids {
+  background-image: url("../img/for-kids.png");
+}
+.section-body-trend-accesories {
+  background-image: url("../img/accesories.png");
 }
