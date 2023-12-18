@@ -28,4 +28,41 @@ body {
   display: flex;
   background-color: #222222;
   justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+.header-icon-search {
+  padding-left: 231px;
+  display: flex;
+  gap: 41px;
+}
+.header-nav {
+  padding-right: 240px;
+}
+.section-top {
+  background-color: #F1E4E6;
+  height: 764px;
+  display: flex;
+}
+.section-top-right {
+  display: flex;
+  flex-direction: column;
+}
+.section-top-right-div {
+  height: 50%;
+}
+.section-top-right-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.section-top-right-top-rectagle {
+  padding-left: 63.42px;
+}
+.section-top-right-top-h1 {
+  color: #222;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
 }
