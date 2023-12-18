@@ -49,6 +49,8 @@ body {
 }
 .header-nav {
   /*padding-right: 240px;*/
+  display: flex;
+  gap: 25px;
 }
 .section-top {
   background-color: #F1E4E6;
