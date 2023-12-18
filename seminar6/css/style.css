@@ -105,13 +105,15 @@ body {
 .section-body-trend {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  /*grid-template-rows: repeat(2, 1fr);*/
   gap: 30px;
   /*max-width: 1140px;*/
 }
 .section-body-trend-items {
   background-color: #211616B2;
   padding: 105px 103px;
+  background-position: center;
+  background-size: cover;
 }
 .trend-for-women {
   background-image: url("../img/for-women.png"), url("../img/Rectangle-items.png");
@@ -173,6 +175,8 @@ body {
   justify-content: center;
   max-width: 360px;
   max-height: 581px;
+  background-position: center;
+  background-size: cover;
 }
 .products-item-div_img {
   height: 420px;
