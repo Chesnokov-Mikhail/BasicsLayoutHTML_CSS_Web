@@ -23,20 +23,29 @@ html {
 body {
   max-width: 1600px;
 }
+.container {
+  width: 1140px;
+}
 .header {
   display: flex;
   background-color: #222222;
-  justify-content: space-between;
-  align-items: center;
+  /*justify-content: space-between;*/
+  justify-content: center;
+  /*align-items: center;*/
   height: 75px;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header-icon-search {
-  padding-left: 231px;
+  /*padding-left: 231px;*/
   display: flex;
   gap: 41px;
 }
 .header-nav {
-  padding-right: 240px;
+  /*padding-right: 240px;*/
 }
 .section-top {
   background-color: #F1E4E6;
@@ -93,7 +102,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 30px;
-  max-width: 1140px;
+  /*max-width: 1140px;*/
 }
 .section-body-trend-items {
   background-color: #211616B2;
