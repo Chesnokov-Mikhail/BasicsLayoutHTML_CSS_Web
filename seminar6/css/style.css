@@ -82,26 +82,45 @@ body {
 }
 .section-body {
   background-color: #FFF;
-  max-height: 2925px;
+  display: flex;
+  justify-content: center;
 }
 .section-body-trend {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 30px;
+  max-width: 1140px;
+  padding-top: 65px;
 }
 .section-body-trend-items {
-  fill: rgba(33, 22, 22, 0.70);
-  max-height: 260px;
-  max-width: 360px;
+  background-color: #211616B2;
+  padding: 105px 103px;
 }
-.section-body-trend-for-women {
+.trend-for-women {
   background-image: url("../img/for-women.png");
 }
-.section-body-trend-for-men {
+.trend-for-men {
   background-image: url("../img/for-men.png");
 }
-.section-body-trend-for-kids {
+.trend-for-kids {
   background-image: url("../img/for-kids.png");
 }
-.section-body-trend-accesories {
+.trend-accesories {
+  grid-column: span 3;
   background-image: url("../img/accesories.png");
+}
+.trend-items-p1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.trend-items-p2 {
+  color: #F16D7F;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
 }
