@@ -374,7 +374,7 @@ body {
     margin-bottom: 40.6px;
   }
   .products-item-div_img:hover {
-    
+    cursor: pointer;
   }
   .products-item-text {
     padding: 25px 28.8px 18px 16.4px;
