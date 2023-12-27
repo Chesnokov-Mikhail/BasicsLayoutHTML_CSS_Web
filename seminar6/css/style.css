@@ -349,4 +349,34 @@ body {
   .section-body-trend-items {
     grid-column: span 3;
   }
+  .trend-for-women {
+    padding: 98px 95px;
+  }
+  .trend-for-women {
+    padding: 102px 73px 76px 73px;
+  }
+  .trend-for-kids {
+    padding: 105px 90px 72px 90px;
+  }
+  .trend-accesories {
+    padding: 30px 92px;
+  }
+  .section-body-products {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .section-body-products-title {
+    margin-bottom: 64.7px;
+  }
+  .section-body-products-items {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    margin-bottom: 40.6px;
+  }
+  .products-item-div_img:hover {
+    
+  }
+  .products-item-text {
+    padding: 25px 28.8px 18px 16.4px;
+  }
 }
