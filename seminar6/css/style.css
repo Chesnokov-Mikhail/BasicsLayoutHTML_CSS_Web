@@ -360,6 +360,9 @@ body {
 .section-subscribe-box-SUBSCRIBE {
   width: 557px;
   margin-top: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .section-subscribe-box-SUBSCRIBE-h2 {
   color: #222224;
@@ -374,6 +377,37 @@ body {
   font-weight: 400;
   line-height: 167.2%;
   text-align: center;
+}
+.section-subscribe-box-SUBSCRIBE-form {
+  margin-top: 39px;
+}
+.section-subscribe-box-SUBSCRIBE-form_email {
+  background-color: #E1E1E1;
+  width: 256px;
+  height: 49px;
+  border-radius:24.5px 0 0 24.5px;
+  border-style: none;
+  text-align: center;
+  color: #222224;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.671;
+}
+.section-subscribe-box-SUBSCRIBE-form_submit {
+  background-color: #F16D7F;
+  width: 100px;
+  height: 49px;
+  border-radius:0 24.5px 24.5px 0;
+  border-style: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.section-subscribe-box-SUBSCRIBE-form_submit:hover {
+  cursor: pointer;
 }
 .footer {
 
