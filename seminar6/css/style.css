@@ -380,6 +380,7 @@ body {
 }
 .section-subscribe-box-SUBSCRIBE-form {
   margin-top: 39px;
+  display: flex;
 }
 .section-subscribe-box-SUBSCRIBE-form_email {
   background-color: #E1E1E1;
