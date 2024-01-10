@@ -299,10 +299,31 @@ body {
   align-items: center;
   justify-content: center;
 }
-.footer-nav-div {
+.footer-nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.footer-nav-container-div {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-nav-container-div-h3 {
+  color: #FBFBFB;
+  font-size: 19.96px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 28.7px;
+}
+.footer-nav-container-div-text {
+  color: #FBFBFB;
+  text-align: center;
+  font-size: 13.972px;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 16px;
 }
 .footer-subscribe {
   height: 448px;
@@ -334,7 +355,12 @@ body {
   gap: 7.29px;
 }
 .footer-icon-system-box {
-  
+  width: 31.451px;
+  height: 32px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 1439px) {
   .header {
