@@ -504,7 +504,7 @@ body {
   align-items: center;
 }
 .footer-icon-text {
-  width: 332px;
+  /*width: 332px;*/
   color: #FBFBFB;
   font-size: 16px;
   font-weight: 400;
@@ -523,6 +523,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-icon-system-box:hover {
+  background-color: #F16D7F;
+  fill: white;
 }
 @media screen and (max-width: 1439px) {
   .header {
@@ -587,6 +591,30 @@ body {
   }
   .products-item-descr {
     margin-bottom: 18px;
+  }
+  .section-container-nav {
+    height: 610px;
+  }
+  .section-container-nav-container {
+    flex-direction: column;
+    gap: 48.47px;
+  }
+  .section-subscribe {
+    height: 693px;
+  }
+  .section-subscribe-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+  }
+  .section-subscribe-box-Intersect {
+    margin-top: 64px;
+  }
+  .section-subscribe-box-SUBSCRIBE {
+    margin-top: 48px;
+  }
+  .section-subscribe-box-SUBSCRIBE-form {
+    margin-top: 34px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -658,5 +686,38 @@ body {
   }
   .products-item-text {
     padding: 25px 28.8px 18px 16.4px;
+  }
+  .section-subscribe {
+    height: 550px;
+  }
+  .section-subscribe-box-SUBSCRIBE {
+    margin-top: 59px;
+  }
+  .section-subscribe-box-SUBSCRIBE-h3 {
+    font-size: 14px;
+  }
+  .section-subscribe-box-SUBSCRIBE-form_submit {
+    background-color: #F16D7F;
+    width: 96px;
+    height: 47px;
+    border-radius: 0 23.5px 23.5px 0;
+  }
+  .section-subscribe-box-SUBSCRIBE-form_email {
+    width: 245px;
+    height: 47px;
+    border-radius: 23.5px 0 0 23.5px;
+  }
+  .footer-icon {
+    height: 143px;
+    align-items: normal;
+  }
+  .footer-icon-div {
+    flex-direction: column-reverse;
+  }
+  .footer-icon-system {
+    margin-top: 43px;
+  }
+  .footer-icon-text {
+    margin-bottom: 9px;
   }
 }
