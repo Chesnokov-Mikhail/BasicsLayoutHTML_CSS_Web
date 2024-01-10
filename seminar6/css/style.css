@@ -301,7 +301,7 @@ body {
 }
 .footer-nav-div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .footer-subscribe {
@@ -312,7 +312,29 @@ body {
   height: 79px;
   display: flex;
   background-color: #222224;
-  /*gap: 41px;*/
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-icon-text {
+  width: 332px;
+  color: #FBFBFB;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-icon-system {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7.29px;
+}
+.footer-icon-system-box {
+  
 }
 @media screen and (max-width: 1439px) {
   .header {
